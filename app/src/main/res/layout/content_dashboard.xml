@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F8FF">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="vertical"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/amaranth"
+                android:text="Add new orders"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="Customer Name"
+                android:fontFamily="@font/amaranth"
+                android:textColor="@color/colorAccent" />
+
+            <EditText
+                android:id="@+id/txtName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/background_text"
+                android:hint="Enter Name"
+                android:fontFamily="@font/amaranth"
+                android:drawablePadding="8dp"
+                android:paddingLeft="15dp"
+                android:inputType="textCapWords"
+                android:maxLength="20"
+                android:padding="10dp"
+                android:singleLine="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="Customer mobile"
+                android:fontFamily="@font/amaranth"
+                android:textColor="@color/colorAccent" />
+
+            <EditText
+                android:id="@+id/txtPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/background_text"
+                android:hint="Enter 10 digit mobile"
+                android:inputType="phone"
+                android:maxLength="10"
+                android:fontFamily="@font/amaranth"
+                android:padding="10dp"
+                android:singleLine="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="Second mobile"
+                android:fontFamily="@font/amaranth"
+                android:textColor="@color/colorAccent" />
+
+            <EditText
+                android:id="@+id/txtSecondPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/background_text"
+                android:hint="Enter 10 digit mobile"
+                android:inputType="phone"
+                android:fontFamily="@font/amaranth"
+                android:maxLength="10"
+                android:drawablePadding="15dp"
+                android:padding="10dp"
+                android:singleLine="true" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="Select Date"
+                android:fontFamily="@font/amaranth"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/txtDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/background_date"
+                android:padding="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="Select Time"
+                android:fontFamily="@font/amaranth"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/txtTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/back_ground_time"
+                android:padding="10dp" />
+
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:paddingTop="10dp"-->
+<!--                android:text="Enter Quantity"-->
+<!--                android:textColor="@color/colorAccent" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/txtQuantity"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:background="@drawable/background_text"-->
+<!--                android:hint="Enter Quantity"-->
+<!--                android:fontFamily="@font/amaranth"-->
+<!--                android:inputType="phone"-->
+<!--                android:maxLength="10"-->
+<!--                android:padding="10dp"-->
+<!--                android:singleLine="true" />-->
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="Customer Place"
+                android:fontFamily="@font/amaranth"
+                android:textColor="@color/colorAccent" />
+
+            <EditText
+                android:id="@+id/txtPlace"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/background_text"
+                android:hint="Enter place"
+                android:fontFamily="@font/amaranth"
+                android:inputType="textMultiLine|textCapWords"
+                android:lines="2"
+                android:padding="10dp"
+                android:maxLines="20" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="Customer Address"
+                android:fontFamily="@font/amaranth"
+                android:textColor="@color/colorAccent" />
+
+            <EditText
+                android:id="@+id/txtAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/background_text"
+                android:hint="Enter Address"
+                android:fontFamily="@font/amaranth"
+                android:inputType="textMultiLine|textCapWords"
+                android:lines="5"
+                android:maxLines="20"
+                android:padding="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="Select categories"
+                android:fontFamily="@font/amaranth"
+                android:textColor="@color/colorAccent" />
+
+            <Spinner
+                android:id="@+id/spCategories"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/background_spinner"
+                android:enabled="false"
+                android:padding="10dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                >
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerItems"
+                    android:layout_width="match_parent"
+                    android:background="@color/colorWhite"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/text_item_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/recyclerItems"
+                    android:paddingTop="10dp"
+                    android:text="Enter Dish Name :"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/amaranth"
+                    android:textColor="@color/colorAccent" />
+
+                <EditText
+                    android:id="@+id/txtDishNames"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/background_text"
+                    android:hint="Enter dish names "
+                    android:layout_below="@id/recyclerItems"
+                    android:fontFamily="@font/amaranth"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/text_item_name"
+                    android:inputType="text"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:padding="5dp"
+                     />
+
+                <TextView
+                    android:id="@+id/text_item_quantity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="15dp"
+                    android:text="Enter Quantity   :"
+                    android:layout_below="@id/text_item_name"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/amaranth"
+                    android:textColor="@color/colorAccent" />
+
+                <EditText
+                    android:id="@+id/txtQauntity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/background_text"
+                    android:hint="Enter Quantity"
+                    android:fontFamily="@font/amaranth"
+                    android:layout_marginLeft="15dp"
+                    android:layout_below="@id/txtDishNames"
+                    android:layout_toRightOf="@id/text_item_quantity"
+                    android:inputType="number"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:padding="5dp"
+                    />
+
+                <Button
+                    android:id="@+id/button_add"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/txtQauntity"
+                    android:layout_marginTop="10dp"
+                    android:text="Add"
+                    />
+
+
+
+            </RelativeLayout>
+
+
+
+            <Button
+                android:id="@+id/btnSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Submit" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

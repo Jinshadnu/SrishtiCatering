@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/logo_big" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="40dp"
+                android:text="Create new account"
+                android:fontFamily="@font/amaranth"
+                android:textColor="#4d4d4d"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+
+            <EditText
+                android:id="@+id/txtName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/background_text"
+                android:fontFamily="@font/amaranth"
+                android:hint="Your name"
+                android:maxLength="20"
+                android:padding="10dp"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/txtPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/background_text"
+                android:hint="10 Digit mobile number"
+                android:fontFamily="@font/amaranth"
+                android:inputType="number"
+                android:maxLength="10"
+                android:padding="10dp"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/txtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/background_text"
+                android:hint="Email"
+                android:fontFamily="@font/amaranth"
+                android:inputType="textWebEmailAddress"
+                android:padding="10dp"
+                android:singleLine="true" />
+
+
+            <EditText
+                android:id="@+id/txtPassword1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/background_text"
+                android:fontFamily="@font/amaranth"
+                android:hint="Enter your password"
+                android:maxLength="20"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/txtPassword2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/background_text"
+                android:hint="Confirm password"
+                android:fontFamily="@font/amaranth"
+                android:maxLength="20"
+                android:padding="10dp"
+                android:inputType="textPassword"
+                android:singleLine="true" />
+
+
+            <Button
+                android:id="@+id/btnSignUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="#a2238e"
+                android:text="Create account" />
+
+            <TextView
+                android:id="@+id/lnkSignIn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="Have an account? Click to Sign In"
+                android:textColor="#6175f5"
+                android:fontFamily="@font/amaranth"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

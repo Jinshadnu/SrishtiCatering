@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_centerInParent="true"
+    android:layout_gravity="center_vertical"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:background="#F8F8FF"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/colorWhite"
+            android:layout_margin="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:paddingStart="10dp"
+                    android:paddingBottom="20dp"
+                    android:src="@drawable/logo_big"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:paddingStart="10dp"
+                    android:paddingBottom="20dp"
+                    android:text="@string/app_name"
+                    android:fontFamily="@font/amaranth"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    tools:ignore="RtlCompat" />
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            app:cardBackgroundColor="@color/colorWhite"
+            android:layout_marginEnd="5dp"
+            android:paddingBottom="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:paddingStart="10dp"
+                android:paddingBottom="20dp"
+                android:text=" Version 1.0.0.4"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:paddingBottom="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:paddingStart="10dp"
+                android:paddingBottom="20dp"
+                android:textColor="#000"
+                android:text="Developed by Vingcoz Technologies"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="20dp"
+            android:paddingBottom="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:paddingStart="10dp"
+                android:paddingBottom="20dp"
+                android:text="www.vingcoz.com"
+                android:textSize="14sp"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+</ScrollView>
